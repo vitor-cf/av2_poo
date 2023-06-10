@@ -1,6 +1,7 @@
 package controle_atendimento_de_pacientes;
 
 import java.util.Date;
+import java.util.List;
 
 public class Paciente {
 	private int identificador;
@@ -10,15 +11,6 @@ public class Paciente {
 	private Date dataDoCadastro;
 	private String situacao; 
 	
-	// Construtor
-		public Paciente(int identificador, String nome, String contato, Endereco endereco, Date dataDoCadastro, String situacao) {
-			this.identificador = identificador;
-	        this.nome = nome;
-	        this.contato = contato;
-	        this.endereco = endereco;
-	        this.dataDoCadastro = dataDoCadastro;
-	        this.situacao = situacao;
-		}
 		
 	public int getIdentificador() {
 		return identificador;
@@ -79,4 +71,5 @@ public class Paciente {
 		
 		return enderecoPessoa;
 	}
+	
 }

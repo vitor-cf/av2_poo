@@ -2,7 +2,7 @@ package controle_atendimento_de_pacientes;
 
 import java.util.Date;
 
-public class Exames {
+public class Exame {
 	private int identificador;
 	private String nome;
 	private String descricaoExame;
@@ -11,15 +11,7 @@ public class Exames {
 	private Date dataDoCadastro;
 	private String situacao;
 	
-	public Exames (int identificador, String nome, String descricaoExame, String observacao, String categoria, Date dataDoCadastro, String situacao) {
-		this.identificador = identificador;
-		this.nome = nome;
-		this.descricaoExame = descricaoExame;
-		this.observacao = observacao;
-		this.categoria = categoria;
-		this.dataDoCadastro = dataDoCadastro;
-		this.situacao = situacao;
-	}
+	
 	public int getIdentificador() {
 		return identificador;
 	}

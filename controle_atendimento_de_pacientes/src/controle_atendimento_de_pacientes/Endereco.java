@@ -5,16 +5,8 @@ public class Endereco {
 	private String bairro;
     private String cidade;
     private String estado;
-    private String cep; 
+    private int cep; 
     
-    // Construtor
-    public Endereco(String rua, String bairro, String cidade, String estado, String cep) {
-    	this.rua = rua;
-    	this.bairro = bairro;
-    	this.cidade = cidade;
-    	this.estado = estado;
-    	this.cep = cep;
-    }
     public String getRua() {
 		return rua;
 	}
@@ -39,10 +31,10 @@ public class Endereco {
 	public void setEstado(String estado) {
 		this.estado = estado;
 	}
-	public String getCep() {
+	public int getCep() {
 		return cep;
 	}
-	public void setCep(String cep) {
+	public void setCep(int cep) {
 		this.cep = cep;
 	}
 	
