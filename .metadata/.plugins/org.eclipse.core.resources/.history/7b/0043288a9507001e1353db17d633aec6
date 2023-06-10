@@ -1,0 +1,21 @@
+package controle_atendimento_de_pacientes;
+import java.util.ArrayList;
+import java.util.List;
+
+public class BaseDados {
+	public List<Paciente> pacientes() {
+		List<Paciente> pacientes = new ArrayList<Paciente>();
+		Paciente paciente;
+		
+		paciente = new Paciente();
+		paciente.setId(1);
+		paciente.setNome("Geriatria");
+		especialidades.add(especialidade);
+		
+		especialidade = new Especialidade();
+		especialidade.setId(2);
+		especialidade.setNome("Pediatria");
+		especialidades.add(especialidade);
+		return especialidades;
+	}
+}

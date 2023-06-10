@@ -1,0 +1,10 @@
+package controle_atendimento_de_pacientes;
+
+public class Impressao {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

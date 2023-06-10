@@ -3,14 +3,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BaseDados {
-	public List<Especialidade> especialidades() {
-		List<Especialidade> especialidades = new ArrayList<Especialidade>();
-		Especialidade especialidade;
+	public List<Paciente> pacientes() {
+		List<Paciente> pacientes = new ArrayList<Paciente>();
+		Paciente paciente;
 		
-		especialidade = new Especialidade();
-		especialidade.setNome("Geriatria");
-		especialidades.add(especialidade);
+		paciente = new Paciente();
 		
-		return especialidades;
+		return pacientes;
 	}
 }
