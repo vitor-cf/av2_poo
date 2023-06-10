@@ -1,0 +1,13 @@
+package controle_atendimento_de_pacientes;
+
+public class Agendamento {
+	private int identificador;
+    private Paciente paciente;
+    private String especialidade;
+    private ProfissionalSaude profissionalSaude;
+    private String tipoAtendimento;
+    private String convenioParticular;
+    private Date dataAtendimento;
+    private String local;
+    private String situacao;
+}

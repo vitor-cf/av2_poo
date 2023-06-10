@@ -1,0 +1,6 @@
+package controle_atendimento_de_pacientes;
+
+public class Protuario {
+	private int identificador;
+	
+}

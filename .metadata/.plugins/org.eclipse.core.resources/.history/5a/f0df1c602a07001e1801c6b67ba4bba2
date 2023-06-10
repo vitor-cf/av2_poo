@@ -1,0 +1,13 @@
+package controle_atendimento_de_pacientes;
+
+import java.util.List;
+
+public class BaseDados {
+	public List<Especialidade> especialidades() {
+		List<Especialidade> especialidade = new ArrayList<Especialidade>();
+		Especialidade especialidades;
+		
+		especialidades = new Especialidade();
+		especialidades.setNome("Geriatria");
+	}
+}

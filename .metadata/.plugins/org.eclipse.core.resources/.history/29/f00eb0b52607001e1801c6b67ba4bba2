@@ -1,0 +1,10 @@
+package controle_atendimento_de_pacientes;
+
+public class Protuario {
+	private int identificador;
+	private Paciente paciente;
+	private ProfissionalDeSaude profissionalDeSaude;
+	private String descricaoAtendimento;
+	private String tratamentoSugerido;
+	
+}

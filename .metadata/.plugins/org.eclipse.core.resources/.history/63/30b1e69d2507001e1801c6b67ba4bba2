@@ -1,0 +1,30 @@
+package controle_atendimento_de_pacientes;
+
+import java.util.Date;
+
+public class Agendamento {
+	private int identificador;
+    private Paciente paciente;
+    private String especialidade;
+    private ProfissionalDeSaude profissionaDelSaude;
+    private String tipoAtendimento;
+    private String convenioParticular;
+    private Date dataAtendimento;
+    private String local;
+    private String situacao;
+    
+ // Construtor
+    public Agendamento(int identificador, Paciente paciente, String especialidade,
+                       ProfissionalDeSaude profissionalSaude, String tipoAtendimento,
+                       String convenioParticular, Date dataAtendimento, String local, String situacao) {
+        this.identificador = identificador;
+        this.paciente = paciente;
+        this.especialidade = especialidade;
+        this.profissionalDeSaude = profissionalDeSaude;
+        this.tipoAtendimento = tipoAtendimento;
+        this.convenioParticular = convenioParticular;
+        this.dataAtendimento = dataAtendimento;
+        this.local = local;
+        this.situacao = situacao;
+    }
+}

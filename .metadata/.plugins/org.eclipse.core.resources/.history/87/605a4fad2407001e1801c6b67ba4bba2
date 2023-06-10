@@ -1,0 +1,11 @@
+package controle_atendimento_de_pacientes;
+
+public class Exames {
+	private int identificador;
+	private String nome;
+	private String descricaoExame;
+	private String observacao;
+	private String categoria;
+	private Date dataDoCadastro;
+	private String situacao;
+}

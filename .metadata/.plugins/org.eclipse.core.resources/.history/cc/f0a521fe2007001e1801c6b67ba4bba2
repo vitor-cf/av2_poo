@@ -1,0 +1,8 @@
+package controle_atendimento_de_pacientes;
+
+public class Pacientes {
+	private int identificador;
+	private String nome;
+	private String contato;
+	
+}
